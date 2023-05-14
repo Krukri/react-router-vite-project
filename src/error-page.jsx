@@ -11,10 +11,6 @@ export default function ErrorPage() {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
-      <h1>
-        This is a sample error page for unexpected but assumed error in the
-        website!
-      </h1>
     </div>
   );
 }

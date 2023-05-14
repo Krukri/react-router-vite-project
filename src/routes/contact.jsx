@@ -42,6 +42,8 @@ export default function Contact() {
           <Form action="edit">
             <button type="submit">Edit</button>
           </Form>
+
+          
           <Form
             method="post"
             action="destroy"
